@@ -77,3 +77,18 @@ const typed=new Typed('.multiple-text',{
     backDelay:1000,
     loop: true
 })
+
+
+// download
+
+function downloadFile()
+{
+    const resumeURL='./Images/resume.pdf';
+    const link=document.createElement('a');
+    link.href=resumeURL;
+    link.download='Jikku_Vijay_resume';
+    document.body.appendChild(link);
+    link.click();
+    document.body.remove(link);
+
+}

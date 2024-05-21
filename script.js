@@ -83,7 +83,7 @@ const typed=new Typed('.multiple-text',{
 
 function downloadFile()
 {
-    const resumeURL='./Images/resume.pdf';
+    const resumeURL='./Images/Jikku Vijay-Resume.pdf';
     const link=document.createElement('a');
     link.href=resumeURL;
     link.download='Jikku_Vijay_resume';
